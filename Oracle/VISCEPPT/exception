@@ -1,0 +1,22 @@
+错误号	    异常错误信息名称	        说明
+ORA-00001 	DUP_VAL_ON_INDEX	    试图破坏一个唯一性限制
+ORA-00051	TIMEOUT_ON_RESOURCE	    在等待资源时发生超时
+ORA-01001	INVALID_CURSOR 	        试图使用一个无效的游标
+ORA-01012 	NOT_LOGGED_ON	        没有连接到ORACLE
+ORA-01017	LOGIN_DENIED	        无效的用户名及口令
+ORA-01403 	NO_DATA_FOUND	        SELECT INTO没有找到数据
+ORA-01422 	TWO_MANY_ROWS	        SELECT INTO 返回多行
+ORA-01410	SYS_INVALID_ROWID	    从字符串向ROWID转换发生错误
+ORA-01476	ZERO_DIVIDE	            数字值除零时触发的异常
+ORA-01722	INVALID_NUMBER	        转换一个数字失败
+ORA-06500	STORAGE_ERROR	        内存不够引发的内部错误
+ORA-06501	PROGRAM_ERROR	        存在PL/SQL内部问题
+ORA-06502	VALUE_ERROR	            转换或截断错误
+ORA-06504	ROWTYPE_MISMATCH	    宿主游标变量与 PL/SQL 游标变量的返回类型不兼容 
+ORA-06511	CURSOR_ALREADY_OPEN	    游标已经打开
+ORA-06530 	ACCESS_INTO_NULL	    未定义对象
+ORA-06531	COLLECTION_IS_NULL	    集合元素未初始化 
+ORA-06532	SUBSCRIPT_OUTSIDE_LIMIT	使用嵌套表或 VARRAY 时，将下标指定为负数  
+ORA-06533	SUBSCRIPT_BEYOND_COUNT	元素下标超过嵌套表或 VARRAY 的最大值  
+ORA-06592	CASE_NOT_FOUND	        CASE 中若未包含相应的 WHEN ，并且没有设置 
+ORA-30625	SELF_IS_NULL	        使用对象类型时，在 null 对象上调用对象方法 
